@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <center>
+        <h1>Student Registration Form</h1>
+    </center>
+
+    <form>
+
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+
+            <label>First Name:</label>
+            <input type="text" name="firstname"><br><br>
+
+            <label>Last Name:</label>
+            <input type="text" name="lastname"><br><br>
+
+            <label>Date of Birth:</label>
+            <input type="date" name="dob"><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email"><br><br>
+
+            <label>Phone Number:</label>
+            <input type="tel" name="phone"><br><br>
+
+            <label>Address:</label><br>
+            <textarea rows="4" cols="40"></textarea><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Academic Information</b></legend>
+
+            <label>Course:</label>
+            <select>
+                <option>BCA</option>
+                <option>MCA</option>
+                <option>B.Tech</option>
+                <option>M.Tech</option>
+                <option>B.Sc</option>
+                <option>M.Sc</option>
+            </select>
+            <br><br>
+
+            <label>Department:</label>
+            <input type="text" name="department"><br><br>
+
+            <label>Roll Number:</label>
+            <input type="text" name="rollno"><br><br>
+
+            <label>Year:</label>
+            <select>
+                <option>1st Year</option>
+                <option>2nd Year</option>
+                <option>3rd Year</option>
+                <option>4th Year</option>
+            </select>
+            <br><br>
+
+            <label>Skills:</label><br>
+            <input type="checkbox"> C Programming<br>
+            <input type="checkbox"> Java<br>
+            <input type="checkbox"> Python<br>
+            <input type="checkbox"> HTML & CSS<br>
+            <input type="checkbox"> JavaScript<br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Login Information</b></legend>
+
+            <label>Username:</label>
+            <input type="text" name="username"><br><br>
+
+            <label>Password:</label>
+            <input type="password" name="password"><br><br>
+
+            <label>Confirm Password:</label>
+            <input type="password" name="confirm_password"><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <center>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </center>
+
+    </form>
+
+</body>
+</html>
